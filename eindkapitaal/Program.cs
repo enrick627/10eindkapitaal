@@ -26,8 +26,8 @@ namespace eindkapitaal
         static void Main(string[] args)
         {//Declaratie 
             string beginkapitaalinput, looptijdinput;
-            decimal eindkapitaal;
-            string intrestvoet, looptijd;
+            decimal eindkapitaal, intrestvoet;
+            string  looptijd;
             decimal beginkapitaal;
 
 
@@ -41,13 +41,13 @@ namespace eindkapitaal
             looptijdinput = Console.ReadLine();
 
             //bereken intrestvoet(/100*1.25)
-            intrestvoet = "1.25 %";
+            
             //bereken beginkapitaalinput
             beginkapitaal = decimal.Parse(beginkapitaalinput);
             //looptijdinput
             looptijd = looptijdinput;
             //bereken eindkapitaal(bkinput* (1+(/100*1.25)looptijdinput
-
+            eindkapitaal = $"eindkapitaal: {beginkapitaal * (1 + (1.25%))};
 
             //toon eindkapitaal in 2 cijfers na de komma
 

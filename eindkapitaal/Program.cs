@@ -47,9 +47,10 @@ namespace eindkapitaal
             //looptijdinput
             looptijd = looptijdinput;
             //bereken eindkapitaal(bkinput* (1+(/100*1.25)looptijdinput
-            eindkapitaal = $"eindkapitaal: {beginkapitaal * (1 + (1.25%))};
+            eindkapitaal = $"eindkapitaal: {beginkapitaalinput * (1 + 1,25%)}";
 
             //toon eindkapitaal in 2 cijfers na de komma
+
 
             //wachten
             Console.WriteLine();
